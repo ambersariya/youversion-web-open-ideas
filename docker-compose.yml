@@ -1,0 +1,8 @@
+version: "3"
+services:
+  youversion-web-open-ideas:
+    build: .
+    image: lifechurch/youversion-web-open-ideas
+    ports:
+      - "8080:8080"
+    container_name: lifechurch_youversion-web-open-ideas
